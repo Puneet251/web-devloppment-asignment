@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.pricing-container{
+    position: relative;
+    min-height: 22rem;
+    width: 68%;
+    left: 15%;
+    top: 2rem;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+    background-color: #f0fff4;
+    border: 2px solid rgb(9, 80, 194);
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
+}
+.same-styling{
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+    gap: 0.7rem;
+    display: flex;
+    box-shadow: 0 0 5px rgb(56, 55, 55);
+    min-width: 16rem;
+    border-radius: 0.7rem;
+}
+.first-pricing-box{
+    background-color: white;
+    color: rgb(8, 10, 11);
+}
+.second-pricing-box{
+    background-color:rgb(12, 12, 41);
+    color: white;
+}
+.third-pricing-box{
+    color: rgb(8, 10, 11);
+    background-color: white;
+}

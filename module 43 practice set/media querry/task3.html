@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul {
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        font-weight: 500;
+        color: white;
+        background-color: black;
+        height: 5rem;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+      }
+
+      @media (max-width: 768px) {
+        ul {
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          height: 16rem;
+        }
+
+        a {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

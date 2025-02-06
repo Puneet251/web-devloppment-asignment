@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  color: black;
+  background-color: white;
+  margin-left: 3rem;
+}
+/* combinator selector */
+nav ul li a {
+  color: red;
+}
+div h2 {
+  background-color: aliceblue;
+  color: aquamarine;
+}
+p:first-of-type {
+  color: rgb(255, 38, 0);
+}
+
+/* attribute seclector */
+a[href="#"] {
+  color: rgb(245, 10, 2);
+  text-decoration: none;
+}
+.active {
+  text-decoration: underline;
+  color: pink;
+}
+a[target="_self"] {
+  background-color: blueviolet;
+  color: white;
+}
+
+/* pseudo selector */
+p:nth-of-type(3)::after {
+  content: "...";
+}
+::marker {
+  content: "+";
+  color: aqua;
+}
+p:nth-of-type(2)::first-letter {
+  font-size: 30px;
+  color: rgb(17, 16, 15);
+}
+p:last-child {
+  font-size: 5rem;
+}
+p:nth-child() {
+  font-size: 5rem;
+}

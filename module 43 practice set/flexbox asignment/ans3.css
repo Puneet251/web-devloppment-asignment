@@ -1,0 +1,14 @@
+.box-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+
+.box {
+  background-color: rgb(20, 232, 20);
+  padding: 2rem;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+}
